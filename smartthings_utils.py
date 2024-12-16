@@ -14,8 +14,6 @@ load_dotenv()
 
 api_token = os.getenv("SMARTTHINGS_TOKEN")
 
-print(api_token)
-
 headers = {
     "Authorization": "Bearer " + api_token
 }
